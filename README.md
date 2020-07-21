@@ -2,20 +2,23 @@ This is Deep neural Network written in Java from scratch based on Andrew Ng Cour
 There is TestMain.Java class for three kinds of examples i.e regression, classification and multiclass classificaiton. Multi label classification can also be achieved as onVsAll method is also implemented. This project focusses on working on taskes which are not easily available such as devolping your own method for parameter initilization, writing your own activation, changing neural network architecture etc. 
 
 #Examples
-import java.util.Arrays;
-import java.util.Map;
-import com.jnn.consts.IPredictionModelConstants;
-import com.jnn.enums.DeepNNActivations;
-import com.jnn.enums.DeepNNCostFunctions;
-import com.jnn.enums.DeepNNKeysForMaps;
-import com.jnn.enums.DeepNNOptimizers;
-import com.jnn.enums.DeepNNRegularizor;
-import com.jnn.enums.ParameterInitializationType;
-import com.jnn.utilities.DNNUtils;
-import com.jnn.utilities.MatrixUtil;
-import com.jnn.utilities.Stopwatch;
-import com.phd.models.NeuralNetworkModels;
 
+	import java.util.Arrays;
+	import java.util.Map;
+	import com.jnn.consts.IPredictionModelConstants;
+	import com.jnn.enums.DeepNNActivations;
+		import com.jnn.enums.DeepNNCostFunctions;
+	import com.jnn.enums.DeepNNKeysForMaps;
+	import com.jnn.enums.DeepNNOptimizers;
+	import com.jnn.enums.DeepNNRegularizor;
+	import com.jnn.enums.ParameterInitializationType;
+	import com.jnn.utilities.DNNUtils;
+	import com.jnn.utilities.MatrixUtil;
+	import com.jnn.utilities.Stopwatch;
+	import com.phd.models.NeuralNetworkModels;
+
+
+		
 		String[] files= {"BostonHousePrinceDataset\\\\regressionBostonHousePrince.csv",
 				"ionosphereDataset\\ClassificatinoDataSet.txt",
 				"heartDisease\\heart.txt",
