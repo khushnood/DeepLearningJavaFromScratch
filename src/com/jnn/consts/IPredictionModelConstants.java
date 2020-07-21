@@ -42,19 +42,7 @@ public final class  IPredictionModelConstants {
     public static final int MODEL_INDX_HAWKES_PROCESS=12;
     public static final int MODEL_INDX_TEMPG_DNN=13;
     public static final int MODEL_INDX_TEMPG_GCNN=14;
-    public static String[] kernalNames= {"exponential","linear"};
-    public static  String[] MODEL_NAME_LABLE = {"PBP","TBP","KTBP","RBDM","PR","PRHYB","INDG","_NON_PARAM","_UNKNOWM","POISSON_PROCESS","POISSON_TEST","TBP_NONPARAM","HAWKES","TEMPG_DNN","DNN_N2VEC" };
-    public static String[] fileLabelNames = {"_MOVIELENS_10M","_MOVIELENS_20M", "_NETFLIX", "_FACEBOOK","_YOUCHOOSE","_AMAZON","_CITATION","_HUMANCONTACT","_STACKOVERFLOW","_YOUTUBE","_DIGG","_INFECTIOUS","_RT","_EmailEUCore","_APS_CITATION","_UNKNOWN" };
-    public static final int NUMBER_OF_INDECES_RESULT_FILE=23;
-    public static final int FUTURE_TIME_LENGHT=30;
-    public static final int PAST_TIME_LENGHT=30;
-    public static  String[] FILE_NAMES = {
-		"movielens_10M.txt","movielens.txt",
-		"netflix5k_result_time_desc.txt", "facebook.txt",
-		"YouChooseTimeAsDayNormalized.txt", "amazonTBPNormalizedTime.txt",
-		"citationArxivTimeAsMonth.txt", "HumunContacMIT.txt",
-		"stackOverflowFavNormalizedTime.txt",
-		"youTubeTemporalNormalized.txt", "diggDataSet.txt","infectiousDisease.txt","retweet.txt","emailEUCore.txt","apsCitationProcessed.txt" };
+ 
     public static int FILE_NAME_INDX_MOVIELENS=0;
     public static int FILE_NAME_INDX_NETFLIX=1;
     public static int FILE_NAME_INDX_FACEBOOK=2;
