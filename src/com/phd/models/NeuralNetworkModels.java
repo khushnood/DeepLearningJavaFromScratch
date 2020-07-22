@@ -35,7 +35,8 @@ import com.jnn.consts.IPredictionModelConstants;
 
 public class NeuralNetworkModels {
 /**
- * This two layer model is for learning how neuaral network works. This is from Coursera andrew Ng course.
+ * This two layer model is for learning how neuaral network works. This is from Coursera andrew Ng course. 
+ Initial some idea I got from this author https://jeraldy.git for two layer model.
  * @param X
  * @param Y
  * @param layerDimensions
