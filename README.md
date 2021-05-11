@@ -2,7 +2,7 @@ This is Deep neural Network written in Java from scratch based on Andrew Ng Cour
 There is TestMain.Java class for three kinds of examples i.e regression, classification and multiclass classificaiton. Multi label classification can also be achieved as onVsAll method is also implemented. This project focusses on working on taskes which are not easily available such as devolping your own method for parameter initilization, writing your own activation, changing neural network architecture etc. 
 If you use this code please cite the following paper:
 
-1.  S. Dong, P. Wang, Abbas Khushnood, A survey on deep learning and its applications,**Computer Science Review** (2021) 1003792021https://doi.org/10.1016/j.cosrev.2021.100379
+1.  Dong, Shi, Ping Wang, and Khushnood Abbas. " A survey on deep learning and its applications." Computer Science Review 40 (2021): 100379.
 
 #Examples
 
